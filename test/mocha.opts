@@ -1,0 +1,4 @@
+--require test/chai_opts
+--reporter spec
+--ui bdd
+--recursive

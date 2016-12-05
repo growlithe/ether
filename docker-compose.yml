@@ -1,0 +1,12 @@
+api:
+  build: .
+  ports:
+    - "5150:3000"
+  links:
+    - redis
+  environment:
+    NODE_ENV: staging
+redis:
+  image: redis:latest
+  expose:
+    - "6379"

@@ -1,0 +1,10 @@
+{
+  "db": {
+    "url": "mongodb://localhost",
+    "name": "syndication"
+  },
+  "redis": {
+    "port": 6379,
+    "host": "redis"
+  }
+}
